@@ -7,9 +7,16 @@
 <prescription type="activity" class="com.google.android.gms.ads.AdActivity" sender="any" />
 <prescription type="activity" class="com.google.android.gms.ads.purchase.InAppPurchaseActivity" sender="any" />
 <prescription type="activity" class="com.google.ads.AdActivity" sender="any" />
+<!-- 洛米广告 -->
+<prescription type="activity" class="com.luomi.lm.ad.WebViewActivity" sender="any" />
+<prescription type="service" class="com.luomi.lm.ad.DownloadService" sender="any" />
 <!-- 腾讯广点通 -->
 <prescription type="activity" class="com.qq.e.ads.ADActivity" sender="any" />
 <prescription type="service" class="com.qq.e.comm.DownloadService" sender="any" />
+<!-- 威朋广告 -->
+<prescription type="activity" class="com.vpadn.widget.VpadnActivity" sender="any" />
+<!-- 小米广告 -->
+<prescription type="activity" class="com.xiaomi.ad.puppet.AdPuppetActivity" sender="any" />
 <!-- 有米广告 -->
 <prescription type="activity" class="net.youmi.android.AdBrowser" sender="any" />
 <prescription type="broadcast" class="net.youmi.android.AdReceiver" sender="any" />
@@ -39,4 +46,8 @@
 <prescription type="activity" class="com.yandex.mobile.ads.AdActivity" sender="any" />
 <!-- 其他广告 -->
 <prescription type="activity" class="com.cloudtech.ads.view.InnerWebLandingActivity" sender="any" />
+<prescription type="activity" class="com.cloudtech.appwall.AppwallActivity" sender="any" />
+<prescription type="activity" class="com.kyview.AdActivity" sender="any" />
+<prescription type="activity" class="com.kyview.AdviewWebView" sender="any" />
+<prescription type="service" class="com.kyview.DownloadService" sender="any" />
 </prescriptions>
