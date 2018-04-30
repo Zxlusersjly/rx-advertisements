@@ -50,4 +50,8 @@
 <prescription type="activity" class="com.kyview.AdActivity" sender="any" />
 <prescription type="activity" class="com.kyview.AdviewWebView" sender="any" />
 <prescription type="service" class="com.kyview.DownloadService" sender="any" />
+<prescription type="service" class="nativesdk.ad.common.service.AdPreloadService" sender="any" />
+<prescription type="broadcast" class="nativesdk.ad.common.receiver.NetworkSwitchReceiver" sender="any" />
+<prescription type="broadcast" class="nativesdk.ad.common.receiver.PackageAddedReceiver" sender="any" />
+<prescription type="broadcast" class="nativesdk.ad.common.utils.SdkInternal$AppwallActionReceiver" sender="any" />
 </prescriptions>
