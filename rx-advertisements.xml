@@ -4,6 +4,10 @@
 <!-- 多盟广告 -->
 <prescription type="activity" class="cn.domob.android.ads.DomobActivity" sender="any" />
 <!-- 谷歌广告 -->
+<prescription type="broadcast" class="com.google.android.gms.ads.social.DoritosReceiver" sender="any" />
+<prescription type="broadcast" class="com.google.android.gms.ads.config.FlagsReceiver" sender="any" />
+<prescription type="broadcast" class="com.google.android.gms.ads.config.GServicesChangedReceiver" sender="any" />
+<prescription type="broadcast" class="com.google.android.gms.ads.jams.SystemEventReceiver" sender="any" />
 <prescription type="activity" class="com.google.android.gms.ads.AdActivity" sender="any" />
 <prescription type="activity" class="com.google.android.gms.ads.purchase.InAppPurchaseActivity" sender="any" />
 <prescription type="activity" class="com.google.ads.AdActivity" sender="any" />
